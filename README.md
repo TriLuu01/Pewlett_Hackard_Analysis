@@ -24,7 +24,7 @@ WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
 ```
 
-**In conclusion, There are 41,380 records of individuals ready to retirement**
+**There are 41,380 records of individuals ready to retirement**
 
 3. Queries for determining the number of individuals being hired:
 - SQL for Current Retirement Eligibility:
@@ -38,7 +38,7 @@ WHERE d.to_date = '9999-01-01';
 ```
 
 
-**In conclusion, there are 33,118 records of Current Retirement Eligibility** 
+**There are 33,118 records of Current Retirement Eligibility** 
 
 - SQL for Current Retirement Eligibility with title and salary information:
 [challenge_emp_info.csv](/Data/challenge_emp_info.csv)
@@ -80,7 +80,6 @@ FROM challenge_title_info
 GROUP BY title;
 ```
 
-**Conclusion**
 **In the 33118 records of Current Retirement Eligibility, there are 251 Assistant Engineers, 2711 engineers, two managers 2022 staffs,12872 Senior Staffs and 1609 Technique Leaders**
 
 6. Queries for determining the number of individuals available for mentorship role:
@@ -95,7 +94,7 @@ INNER JOIN titles AS t ON em.emp_no = t.emp_no
 WHERE (em.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND (t.to_date = '9999-01-01');
 ```
-**In conclusion, there are 1549 active employees eligible for mentor plan.**
+**There are 1549 active employees eligible for mentor plan.**
 
 ### Recommendation for further analysis:
   More detail information and analysis are needed for potential mentor table, 
