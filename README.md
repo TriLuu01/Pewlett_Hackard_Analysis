@@ -97,12 +97,8 @@ AND (t.to_date = '9999-01-01');
 ```
 **In conclusion, there are 1549 active employees eligible for mentor plan.**
 
-### Limitation and Suggestion
- 
- 1. This project assumed retirement years between 1952 and 1955. 
- We need to narrow down period into 3 single year for more accurate estimate and better analysis of potential job opening. 
-
- 2. More detail information and analysis are needed for potential mentor table, 
+### Recommendation for further analysis:
+  More detail information and analysis are needed for potential mentor table, 
  to compare with the title table of current ready-to-retirement 
  and get a better estimate of outside hiring request. 
 
